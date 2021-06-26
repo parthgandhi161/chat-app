@@ -1,0 +1,81 @@
+html{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.logo{
+    
+    display: block;
+    margin: auto;
+    height: 70px;
+    width: 70px;
+
+}
+
+body{
+    background-color: #d2f8d2;
+}
+
+.container{
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    background-color: white;
+    border: 3px solid #90ee90;
+    border-radius: 5px;
+    padding: 10px;
+    height: 65vh;
+    overflow-y: auto;
+    
+}
+
+.message{
+
+    
+    padding: 8px 8px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    max-width: 60%;
+}
+.right{
+    background-color: #90ee90;
+    float: right;
+    clear: both;
+}
+
+.left{
+    background-color: #d2f8d2;
+    float: left;
+    clear: both;
+}
+
+.send{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+#message{
+    height: 35px;
+    width: 50%;
+    border: 2px solid #90ee90;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+#btn{
+    height: 39px;
+    background-color: #90ee90;
+    border: solid #90ee90;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: medium;
+}
+
+.credit{
+    text-align: center;
+    
+}
